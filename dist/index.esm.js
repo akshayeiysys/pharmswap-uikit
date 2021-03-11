@@ -1839,8 +1839,12 @@ var Icon$o = function (props) {
 };
 
 var Icon$n = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React.createElement("path", { d: "m498.195312 222.695312c-.011718-.011718-.023437-.023437-.035156-.035156l-208.855468-208.847656c-8.902344-8.90625-20.738282-13.8125-33.328126-13.8125-12.589843 0-24.425781 4.902344-33.332031 13.808594l-208.746093 208.742187c-.070313.070313-.140626.144531-.210938.214844-18.28125 18.386719-18.25 48.21875.089844 66.558594 8.378906 8.382812 19.445312 13.238281 31.277344 13.746093.480468.046876.964843.070313 1.453124.070313h8.324219v153.699219c0 30.414062 24.746094 55.160156 55.167969 55.160156h81.710938c8.28125 0 15-6.714844 15-15v-120.5c0-13.878906 11.289062-25.167969 25.167968-25.167969h48.195313c13.878906 0 25.167969 11.289063 25.167969 25.167969v120.5c0 8.285156 6.714843 15 15 15h81.710937c30.421875 0 55.167969-24.746094 55.167969-55.160156v-153.699219h7.71875c12.585937 0 24.421875-4.902344 33.332031-13.808594 18.359375-18.371093 18.367187-48.253906.023437-66.636719zm0 0" }))
+    return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", version: "1.1", width: "52", height: "52", x: "0", y: "0", viewBox: "0 0 59.465 59.465" }, props),
+        React.createElement("g", null,
+            React.createElement("g", { xmlns: "http://www.w3.org/2000/svg" },
+                React.createElement("g", null,
+                    React.createElement("path", { d: "M58.862,33.886L45.045,20.069v-9.112c0-1.136-0.921-2.056-2.056-2.056c-1.137,0-2.057,0.92-2.057,2.056v5.001L31.185,6.21    c-0.801-0.803-2.104-0.803-2.905,0L0.603,33.886c-0.803,0.804-0.803,2.104,0,2.907c0.802,0.803,2.104,0.803,2.907,0L29.732,10.57    l26.223,26.223c0.401,0.398,0.93,0.604,1.455,0.604c0.522,0,1.051-0.201,1.452-0.604C59.665,35.988,59.665,34.689,58.862,33.886z", fill: "#43dbb7", "data-original": "#000000" }),
+                    React.createElement("path", { d: "M52.979,36.245L31.185,14.449c-0.385-0.385-0.908-0.602-1.454-0.602c-0.545,0-1.068,0.217-1.453,0.602L6.484,36.245    c-0.291,0.288-0.487,0.659-0.565,1.062c-0.061,0.314-0.091,0.633-0.091,0.942v10.638c0,2.739,2.229,4.971,4.969,4.971h10.638    c1.378,0,2.707-0.582,3.645-1.599c0.854-0.923,1.324-2.12,1.324-3.373v-7.812c0-1.896,1.453-3.48,3.33-3.658    c1.878,0.178,3.331,1.762,3.331,3.658v7.812c0,1.252,0.472,2.45,1.324,3.373c0.938,1.017,2.269,1.599,3.646,1.599h10.638    c2.74,0,4.971-2.229,4.971-4.972V38.252c0-0.312-0.031-0.63-0.092-0.941C53.471,36.904,53.271,36.533,52.979,36.245z", fill: "#43dbb7", "data-original": "#000000" })))))
     // <img src="/assets/home.png"/>
     );
 };
@@ -1991,7 +1995,7 @@ MenuButton.defaultProps = {
 };
 var templateObject_1$d;
 
-var StyledLink = styled(Link$1)(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 156px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 156px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
+var StyledLink = styled(Link$1)(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 350px;\n    display: block;\n    position : absolute;\n    left: 0px;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 350px;\n    display: block;\n    position : absolute;\n    left: 0px;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
@@ -2765,22 +2769,72 @@ var ResetCSS = createGlobalStyle(templateObject_1 || (templateObject_1 = __makeT
 });
 var templateObject_1;
 
+// export const baseColors = {
+//   failure: "#ED4B9E",
+//   primary: "#aa8929",
+//   primaryBright: "#aa8929",
+//   primaryDark: "#aa8929",
+//   secondary: "#7645D9",
+//   success: "#31D0AA",
+//   warning: "#FFB237",
+// };
+// export const brandColors = {
+//   binance: "#F0B90B",
+// };
+// export const lightColors: Colors = {
+//   ...baseColors,
+//   ...brandColors,
+//   background: "#FAF9FA",
+//   backgroundDisabled: "#E9EAEB",
+//   contrast: "#191326",
+//   invertedContrast: "#FFFFFF",
+//   input: "#eeeaf4",
+//   tertiary: "#EFF4F5",
+//   text: "#452A7A",
+//   textDisabled: "#BDC2C4",
+//   textSubtle: "#8f80ba",
+//   borderColor: "#E9EAEB",
+//   card: "#FFFFFF",
+//   gradients: {
+//     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+//   },
+// };
+// export const darkColors: Colors = {
+//   ...baseColors,
+//   ...brandColors,
+//   secondary: "#9A6AFF",
+//   background: "#343135",
+//   backgroundDisabled: "#3c3742",
+//   contrast: "#FFFFFF",
+//   invertedContrast: "#191326",
+//   input: "#483f5a",
+//   primaryDark: "#0098A1",
+//   tertiary: "#353547",
+//   text: "#EAE2FC",
+//   textDisabled: "#666171",
+//   textSubtle: "#c9c4d4",
+//   borderColor: "#524B63",
+//   card: "#27262c",
+//   gradients: {
+//     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+//   },
+// };
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#aa8929",
-    primaryBright: "#aa8929",
-    primaryDark: "#aa8929",
-    secondary: "#7645D9",
+    primary: "#75dfee",
+    primaryBright: "#75dfee",
+    primaryDark: "#75dfee",
+    secondary: "#75dfee",
     success: "#31D0AA",
     warning: "#FFB237",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "red", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#75dfee", textDisabled: "#BDC2C4", textSubtle: "#75dfee", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#75dfee", textDisabled: "#666171", textSubtle: "#75dfee", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
