@@ -19,14 +19,15 @@ const StyledLink = styled(Link)`
   .mobile-icon {
     width: 32px;
     ${({ theme }) => theme.mediaQueries.nav} {
-      display: none;
+      display: block;
     }
   }
   .desktop-icon {
-    width: 350px;
-    display: block;
-    position : absolute;
-    left: 0px;
+    width: 600px;
+    display: none;
+    position:absolute;
+    left:-150px;
+    
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
     }
