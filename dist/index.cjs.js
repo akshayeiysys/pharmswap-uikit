@@ -1867,12 +1867,26 @@ var Icon$o = function (props) {
 };
 
 var Icon$n = function (props) {
-    return (React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 80 80", version: "1.1", width: "30", height: "30", x: "0", y: "0" }, props),
+    return (React__default['default'].createElement("svg", __assign({ version: "1.1", id: "Capa_1", xmlns: "http://www.w3.org/2000/svg", x: "0px", y: "0px", height: "30", width: "30" }, props, { viewBox: "0 0 460.298 460.297" }),
         React__default['default'].createElement("g", null,
-            React__default['default'].createElement("g", { xmlns: "http://www.w3.org/2000/svg" },
-                React__default['default'].createElement("g", null,
-                    React__default['default'].createElement("path", { d: "M58.862,33.886L45.045,20.069v-9.112c0-1.136-0.921-2.056-2.056-2.056c-1.137,0-2.057,0.92-2.057,2.056v5.001L31.185,6.21    c-0.801-0.803-2.104-0.803-2.905,0L0.603,33.886c-0.803,0.804-0.803,2.104,0,2.907c0.802,0.803,2.104,0.803,2.907,0L29.732,10.57    l26.223,26.223c0.401,0.398,0.93,0.604,1.455,0.604c0.522,0,1.051-0.201,1.452-0.604C59.665,35.988,59.665,34.689,58.862,33.886z", fill: "#75dfee", "data-original": "#000000" }),
-                    React__default['default'].createElement("path", { d: "M52.979,36.245L31.185,14.449c-0.385-0.385-0.908-0.602-1.454-0.602c-0.545,0-1.068,0.217-1.453,0.602L6.484,36.245    c-0.291,0.288-0.487,0.659-0.565,1.062c-0.061,0.314-0.091,0.633-0.091,0.942v10.638c0,2.739,2.229,4.971,4.969,4.971h10.638    c1.378,0,2.707-0.582,3.645-1.599c0.854-0.923,1.324-2.12,1.324-3.373v-7.812c0-1.896,1.453-3.48,3.33-3.658    c1.878,0.178,3.331,1.762,3.331,3.658v7.812c0,1.252,0.472,2.45,1.324,3.373c0.938,1.017,2.269,1.599,3.646,1.599h10.638    c2.74,0,4.971-2.229,4.971-4.972V38.252c0-0.312-0.031-0.63-0.092-0.941C53.471,36.904,53.271,36.533,52.979,36.245z", fill: "#43dbb7", "data-original": "#000000" })))))
+            React__default['default'].createElement("g", null,
+                React__default['default'].createElement("path", { d: "M230.149,120.939L65.986,256.274c0,0.191-0.048,0.472-0.144,0.855c-0.094,0.38-0.144,0.656-0.144,0.852v137.041\r\n       c0,4.948,1.809,9.236,5.426,12.847c3.616,3.613,7.898,5.431,12.847,5.431h109.63V303.664h73.097v109.64h109.629\r\n       c4.948,0,9.236-1.814,12.847-5.435c3.617-3.607,5.432-7.898,5.432-12.847V257.981c0-0.76-0.104-1.334-0.288-1.707L230.149,120.939\r\n       z", fill: "#75dfee" }),
+                React__default['default'].createElement("path", { d: "M457.122,225.438L394.6,173.476V56.989c0-2.663-0.856-4.853-2.574-6.567c-1.704-1.712-3.894-2.568-6.563-2.568h-54.816\r\n       c-2.666,0-4.855,0.856-6.57,2.568c-1.711,1.714-2.566,3.905-2.566,6.567v55.673l-69.662-58.245\r\n       c-6.084-4.949-13.318-7.423-21.694-7.423c-8.375,0-15.608,2.474-21.698,7.423L3.172,225.438c-1.903,1.52-2.946,3.566-3.14,6.136\r\n       c-0.193,2.568,0.472,4.811,1.997,6.713l17.701,21.128c1.525,1.712,3.521,2.759,5.996,3.142c2.285,0.192,4.57-0.476,6.855-1.998\r\n       L230.149,95.817l197.57,164.741c1.526,1.328,3.521,1.991,5.996,1.991h0.858c2.471-0.376,4.463-1.43,5.996-3.138l17.703-21.125\r\n       c1.522-1.906,2.189-4.145,1.991-6.716C460.068,229.007,459.021,226.961,457.122,225.438z", fill: "#75dfee" }))),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null))
     // <img src="/assets/home.png"/>
     );
 };
@@ -1903,9 +1917,17 @@ var Icon$m = function (props) {
 };
 
 var Icon$l = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { d: "M5 7C5 6.44772 4.55228 6 4 6C3.44772 6 3 6.44772 3 7V18C3 19.1046 3.89543 20 5 20H20C20.5523 20 21 19.5523 21 19C21 18.4477 20.5523 18 20 18H5V7Z" }),
-        React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M19 17H7C6.44772 17 6 16.5523 6 16V12C6 11.4477 6.44772 11 7 11H10V10C10 9.44772 10.4477 9 11 9H14V7C14 6.44772 14.4477 6 15 6H19C19.5523 6 20 6.44772 20 7V16C20 16.5523 19.5523 17 19 17ZM16 8H18V15H16V8ZM12 15H14V11H12V15ZM10 13H8V15H10V13Z" })));
+    return (
+    // <Svg viewBox="0 0 24 24" {...props}>
+    //   <path d="M5 7C5 6.44772 4.55228 6 4 6C3.44772 6 3 6.44772 3 7V18C3 19.1046 3.89543 20 5 20H20C20.5523 20 21 19.5523 21 19C21 18.4477 20.5523 18 20 18H5V7Z" />
+    //   <path
+    //     fillRule="evenodd"
+    //     clipRule="evenodd"
+    //     d="M19 17H7C6.44772 17 6 16.5523 6 16V12C6 11.4477 6.44772 11 7 11H10V10C10 9.44772 10.4477 9 11 9H14V7C14 6.44772 14.4477 6 15 6H19C19.5523 6 20 6.44772 20 7V16C20 16.5523 19.5523 17 19 17ZM16 8H18V15H16V8ZM12 15H14V11H12V15ZM10 13H8V15H10V13Z"
+    //   />
+    // </Svg>
+    React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", version: "1.1", id: "Layer_1", x: "0px", y: "0px", viewBox: "0 0 512 512", width: "30", height: "30" }, props),
+        React__default['default'].createElement("path", { d: "M239.911,132.588c0-13.807,11.193-25,25-25c13.807,0,25,11.193,25,25s-11.193,25-25,25  C251.104,157.588,239.911,146.396,239.911,132.588z M278.529,316.583c-4.023,1.963-7.224,0.347-8.772-0.793  c-1.464-1.077-3.776-3.434-3.448-7.43l15.876-63.147c0.154-0.614,0.279-1.235,0.375-1.861c2.728-17.888-4.634-35.66-19.212-46.381  c-14.582-10.724-33.746-12.454-50.01-4.517c-13.556,6.614-16.368,7.984-16.378,7.989l17.517,35.961c0,0,2.803-1.365,16.402-8.001  c4.024-1.962,7.223-0.345,8.771,0.793c1.464,1.077,3.776,3.435,3.449,7.431l-15.876,63.147c-0.154,0.614-0.279,1.235-0.375,1.86  c-2.729,17.887,4.633,35.659,19.21,46.38c8.508,6.257,18.575,9.453,28.718,9.453c7.24,0,14.519-1.628,21.294-4.934l13.588-6.631  l-17.541-35.949L278.529,316.583z M512,235.5c0,36.195-6.923,68.709-20.578,96.641c-13.008,26.609-32.129,49.15-56.832,66.999  C390.803,430.777,329.047,447.5,256,447.5c-20.442,0-40.185-1.313-58.845-3.909c-42.33,42.462-94.389,44.91-105.736,44.91  c-0.11,0-0.216,0-0.318,0l-0.105,0l-35.955-0.053l18.983-30.52c0.099-0.162,11.108-18.301,19.591-48.232  C32.285,373.671,0,313.784,0,235.5c0-36.195,6.923-68.709,20.578-96.641C33.586,112.25,52.708,89.708,77.41,71.86  C121.197,40.222,182.953,23.5,256,23.5s134.803,16.723,178.59,48.36c24.702,17.848,43.823,40.39,56.832,66.999  C505.077,166.79,512,199.305,512,235.5z M472,235.5c0-57.903-20.468-102.051-60.836-131.217C374.238,77.602,320.583,63.5,256,63.5  s-118.238,14.103-155.164,40.783C60.468,133.449,40,177.597,40,235.5c0,68.877,28.818,118.016,85.654,146.051l14.073,6.941  l-3.394,15.32c-3.293,14.867-7.375,27.915-11.404,38.786c15.517-5.229,33.798-15.049,49.632-33.439l7.369-8.56l11.136,1.891  c19.571,3.324,40.745,5.009,62.935,5.009c64.583,0,118.238-14.103,155.164-40.783C451.532,337.55,472,293.402,472,235.5z", fill: "#75dfee" })));
 };
 
 var Icon$k = function (props) {
@@ -1925,13 +1947,47 @@ var Icon$j = function (props) {
 };
 
 var Icon$i = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { d: "M6 10C4.9 10 4 10.9 4 12C4 13.1 4.9 14 6 14C7.1 14 8 13.1 8 12C8 10.9 7.1 10 6 10ZM18 10C16.9 10 16 10.9 16 12C16 13.1 16.9 14 18 14C19.1 14 20 13.1 20 12C20 10.9 19.1 10 18 10ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10Z" })));
+    return (
+    // <Svg viewBox="0 0 24 24" {...props}>
+    //   <path d="M6 10C4.9 10 4 10.9 4 12C4 13.1 4.9 14 6 14C7.1 14 8 13.1 8 12C8 10.9 7.1 10 6 10ZM18 10C16.9 10 16 10.9 16 12C16 13.1 16.9 14 18 14C19.1 14 20 13.1 20 12C20 10.9 19.1 10 18 10ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10Z" />
+    // </Svg>
+    React__default['default'].createElement("svg", __assign({ version: "1.1", id: "Capa_1", xmlns: "http://www.w3.org/2000/svg", x: "0px", y: "0px", viewBox: "0 0 512 512", height: "30", width: "30" }, props),
+        React__default['default'].createElement("g", null,
+            React__default['default'].createElement("g", null,
+                React__default['default'].createElement("g", null,
+                    React__default['default'].createElement("path", { d: "M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M256,480\r\n\t\t\t\tC132.288,480,32,379.712,32,256S132.288,32,256,32s224,100.288,224,224S379.712,480,256,480z", fill: "#75dfee" }),
+                    React__default['default'].createElement("circle", { cx: "256", cy: "256", r: "32", fill: "#75dfee" }),
+                    React__default['default'].createElement("circle", { cx: "368", cy: "256", r: "32", fill: "#75dfee" }),
+                    React__default['default'].createElement("circle", { cx: "144", cy: "256", r: "32", fill: "#75dfee" })))),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null)));
 };
 
 var Icon$h = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { d: "M12.8533 3.39627C12.4634 2.75821 11.5366 2.75821 11.1467 3.39627L7.42977 9.47855C7.02256 10.1449 7.50213 11 8.28306 11H15.7169C16.4979 11 16.9774 10.1449 16.5702 9.47855L12.8533 3.39627ZM12 5.84L13.93 9H10.06L12 5.84ZM17.5 13C15.01 13 13 15.01 13 17.5C13 19.99 15.01 22 17.5 22C19.99 22 22 19.99 22 17.5C22 15.01 19.99 13 17.5 13ZM17.5 20C16.12 20 15 18.88 15 17.5C15 16.12 16.12 15 17.5 15C18.88 15 20 16.12 20 17.5C20 18.88 18.88 20 17.5 20ZM3 19.5C3 20.6046 3.89543 21.5 5 21.5H9C10.1046 21.5 11 20.6046 11 19.5V15.5C11 14.3954 10.1046 13.5 9 13.5H5C3.89543 13.5 3 14.3954 3 15.5V19.5ZM5 15.5H9V19.5H5V15.5Z" })));
+    return (
+    // <Svg viewBox="0 0 24 24" {...props}>
+    //   <path d="M12.8533 3.39627C12.4634 2.75821 11.5366 2.75821 11.1467 3.39627L7.42977 9.47855C7.02256 10.1449 7.50213 11 8.28306 11H15.7169C16.4979 11 16.9774 10.1449 16.5702 9.47855L12.8533 3.39627ZM12 5.84L13.93 9H10.06L12 5.84ZM17.5 13C15.01 13 13 15.01 13 17.5C13 19.99 15.01 22 17.5 22C19.99 22 22 19.99 22 17.5C22 15.01 19.99 13 17.5 13ZM17.5 20C16.12 20 15 18.88 15 17.5C15 16.12 16.12 15 17.5 15C18.88 15 20 16.12 20 17.5C20 18.88 18.88 20 17.5 20ZM3 19.5C3 20.6046 3.89543 21.5 5 21.5H9C10.1046 21.5 11 20.6046 11 19.5V15.5C11 14.3954 10.1046 13.5 9 13.5H5C3.89543 13.5 3 14.3954 3 15.5V19.5ZM5 15.5H9V19.5H5V15.5Z" />
+    // </Svg>
+    React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: "30", height: "30", viewBox: "0 0 128 128" }, props),
+        React__default['default'].createElement("g", null,
+            React__default['default'].createElement("path", { d: "M64,0a64,64,0,1,0,64,64A64.073,64.073,0,0,0,64,0ZM107.968,105.49,99.84,97.362a48.808,48.808,0,0,0,13.116-31.615h11.5A60.261,60.261,0,0,1,107.968,105.49ZM15.041,62.361a1.729,1.729,0,0,0-.6-.114H4.062a1.729,1.729,0,0,0-.52.088A60.262,60.262,0,0,1,20.032,22.5l8.128,8.128A48.806,48.806,0,0,0,15.041,62.361Zm82.324-34.2A48.8,48.8,0,0,0,65.75,15.042V3.541a60.265,60.265,0,0,1,39.743,16.488ZM62.25,15.042A48.8,48.8,0,0,0,30.635,28.157l-8.128-8.128A60.261,60.261,0,0,1,62.25,3.541ZM64,18.5A45.5,45.5,0,1,1,18.5,64,45.551,45.551,0,0,1,64,18.5ZM30.392,100.08a1.768,1.768,0,0,0,.218-.267,48.81,48.81,0,0,0,31.64,13.14v11.5a60.259,60.259,0,0,1-39.758-16.5,1.681,1.681,0,0,0,.162-.133ZM65.75,112.953A48.8,48.8,0,0,0,97.365,99.837l8.128,8.128A60.265,60.265,0,0,1,65.75,124.453Zm58.706-50.706h-11.5A48.808,48.808,0,0,0,99.84,30.632l8.128-8.128A60.265,60.265,0,0,1,124.456,62.247ZM3.542,65.659a1.729,1.729,0,0,0,.52.088H14.437a1.729,1.729,0,0,0,.6-.114A48.8,48.8,0,0,0,28.184,97.387a1.768,1.768,0,0,0-.267.218l-7.737,7.738a1.578,1.578,0,0,0-.133.163A60.263,60.263,0,0,1,3.542,65.659Z", fill: "#75dfee" }),
+            React__default['default'].createElement("path", { d: "M38.862,53.893a1.749,1.749,0,0,0-.908,1.808l5,32.875a1.751,1.751,0,0,0,1.73,1.487H83.312a1.749,1.749,0,0,0,1.73-1.487l5-32.875a1.75,1.75,0,0,0-2.915-1.551L72.486,67.63,65.544,54.614a1.75,1.75,0,0,0-3.088,0L55.514,67.63,40.869,54.15A1.745,1.745,0,0,0,38.862,53.893ZM54.809,71.737a1.749,1.749,0,0,0,2.729-.464L64,59.156l6.462,12.117a1.749,1.749,0,0,0,2.729.464L85.837,60.1,81.809,86.563H46.191L42.163,60.1Z", fill: "#75dfee" }),
+            React__default['default'].createElement("path", { d: "M64,51.563a6.813,6.813,0,1,0-6.813-6.813A6.821,6.821,0,0,0,64,51.563Zm0-10.125a3.313,3.313,0,1,1-3.313,3.312A3.315,3.315,0,0,1,64,41.438Z", fill: "#75dfee" }),
+            React__default['default'].createElement("path", { d: "M88.316,51.563A6.813,6.813,0,1,0,81.5,44.75,6.821,6.821,0,0,0,88.316,51.563Zm0-10.125A3.313,3.313,0,1,1,85,44.75,3.316,3.316,0,0,1,88.316,41.438Z", fill: "#75dfee" }),
+            React__default['default'].createElement("path", { d: "M39.684,51.563a6.813,6.813,0,1,0-6.813-6.813A6.821,6.821,0,0,0,39.684,51.563Zm0-10.125a3.313,3.313,0,1,1-3.313,3.312A3.315,3.315,0,0,1,39.684,41.438Z", fill: "#75dfee" }))));
 };
 
 var Icon$g = function (props) {
@@ -1990,16 +2046,46 @@ var Icon$d = function (props) {
 };
 
 var Icon$c = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M18.86 4.86003L21.65 7.65003C21.84 7.84003 21.84 8.16003 21.64 8.35003L18.85 11.14C18.54 11.46 18 11.24 18 10.79V9.00003H4C3.45 9.00003 3 8.55003 3 8.00003C3 7.45003 3.45 7.00003 4 7.00003H18V5.21003C18 4.76003 18.54 4.54003 18.86 4.86003ZM5.14001 19.14L2.35001 16.35C2.16001 16.16 2.16001 15.84 2.36001 15.65L5.15001 12.86C5.46001 12.54 6.00001 12.76 6.00001 13.21V15H20C20.55 15 21 15.45 21 16C21 16.55 20.55 17 20 17H6.00001V18.79C6.00001 19.24 5.46001 19.46 5.14001 19.14Z" })));
+    return (
+    // <Svg viewBox="0 0 24 24" {...props}>
+    //   <path
+    //     fillRule="evenodd"
+    //     clipRule="evenodd"
+    //     d="M18.86 4.86003L21.65 7.65003C21.84 7.84003 21.84 8.16003 21.64 8.35003L18.85 11.14C18.54 11.46 18 11.24 18 10.79V9.00003H4C3.45 9.00003 3 8.55003 3 8.00003C3 7.45003 3.45 7.00003 4 7.00003H18V5.21003C18 4.76003 18.54 4.54003 18.86 4.86003ZM5.14001 19.14L2.35001 16.35C2.16001 16.16 2.16001 15.84 2.36001 15.65L5.15001 12.86C5.46001 12.54 6.00001 12.76 6.00001 13.21V15H20C20.55 15 21 15.45 21 16C21 16.55 20.55 17 20 17H6.00001V18.79C6.00001 19.24 5.46001 19.46 5.14001 19.14Z"
+    //   />
+    // </Svg>
+    React__default['default'].createElement("svg", __assign({ version: "1.1", id: "Capa_1", xmlns: "http://www.w3.org/2000/svg", x: "0px", y: "0px", height: "30", width: "30" }, props, { viewBox: "0 0 480.008 480.008" }),
+        React__default['default'].createElement("g", null,
+            React__default['default'].createElement("g", null,
+                React__default['default'].createElement("path", { d: "M56,400.004c-13.255,0-24,10.745-24,24s10.745,24,24,24s24-10.745,24-24S69.255,400.004,56,400.004z M56,432.004\r\n\t\t\tc-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S60.418,432.004,56,432.004z", fill: "#75dfee" }))),
+        React__default['default'].createElement("g", null,
+            React__default['default'].createElement("g", null,
+                React__default['default'].createElement("path", { d: "M474.498,338.774c-6.984-11.645-19.567-18.77-33.146-18.77h-1.688c-6.342,0.004-12.586,1.564-18.184,4.544L360,357.34\r\n\t\t\tV248.004h28c24.301,0,44-19.699,44-44s-19.699-44-44-44H216c-22.091,0-40-17.909-40-40s17.909-40,40-40h28l45.6,60.8\r\n\t\t\tc1.511,2.014,3.882,3.2,6.4,3.2h176c4.418,0,8-3.582,8-8v-128c0-4.418-3.582-8-8-8H296c-2.518,0-4.889,1.186-6.4,3.2l-45.6,60.8\r\n\t\t\th-28c-30.928,0-56,25.072-56,56c0,30.928,25.072,56,56,56h172c15.464,0,28,12.536,28,28s-12.536,28-28,28h-28v-32\r\n\t\t\tc0-4.418-3.582-8-8-8H128c-4.418,0-8,3.582-8,8v120c-6.203,2.166-12.215,4.842-17.976,8H0v16h96v120H0v16h303.136\r\n\t\t\tc7.252,0,14.367-1.972,20.584-5.704l137.512-82.504C479.537,380.817,485.476,357.079,474.498,338.774z M312.099,94.631\r\n\t\t\tc12.497-4.418,19.046-18.131,14.627-30.627c-4.418-12.497-18.131-19.046-30.627-14.627c-6.835,2.416-12.211,7.793-14.627,14.627\r\n\t\t\tH264l36-48h164v112H300l-36-48h17.472C285.89,92.501,299.603,99.05,312.099,94.631z M296,72.004c0-4.418,3.582-8,8-8s8,3.582,8,8\r\n\t\t\ts-3.582,8-8,8S296,76.422,296,72.004z M224,208.004h32v32h-32V208.004z M136,208.004h72v40c0,4.418,3.582,8,8,8h48\r\n\t\t\tc4.418,0,8-3.582,8-8v-40h72v157.864l-13.104,6.984c4.887-19.272-6.775-38.857-26.048-43.744\r\n\t\t\tc-2.892-0.733-5.864-1.104-8.848-1.104h-77.912c-25.053-13.657-54.117-18.053-82.088-12.416V208.004z M453,378.076L315.488,460.58\r\n\t\t\tc-3.731,2.24-8,3.424-12.352,3.424H112v-123.2c31.576-16.149,69.159-15.329,100,2.184c1.221,0.685,2.6,1.036,4,1.016h80\r\n\t\t\tc11.046,0,20,8.954,20,20c0,11.046-8.954,20-20,20h-72c-4.418,0-8,3.582-8,8s3.582,8,8,8h88c1.314,0.002,2.608-0.319,3.768-0.936\r\n\t\t\tl113.24-60.4c3.281-1.746,6.94-2.661,10.656-2.664h1.688c12.508-0.001,22.649,10.138,22.65,22.646\r\n\t\t\tC464.002,366.609,459.826,373.983,453,378.076z", fill: "#75dfee" }))),
+        React__default['default'].createElement("g", null,
+            React__default['default'].createElement("g", null,
+                React__default['default'].createElement("path", { d: "M431.917,84.266c-0.623-6.087-4.325-11.429-9.805-14.15l-21.056-10.528c-0.937-0.458-1.325-1.589-0.867-2.525\r\n\t\t\tc0.312-0.639,0.956-1.048,1.667-1.059H432v-16h-16v-8h-16v8.192c-9.793,1.002-16.919,9.753-15.917,19.546\r\n\t\t\tc0.623,6.087,4.325,11.429,9.805,14.15l21.056,10.528c0.937,0.458,1.325,1.589,0.867,2.525c-0.312,0.639-0.956,1.048-1.667,1.059\r\n\t\t\tH384v16h16v8h16v-8.192C425.793,102.81,432.919,94.059,431.917,84.266z", fill: "#75dfee" }))),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null),
+        React__default['default'].createElement("g", null)));
 };
 
 var Icon$b = function (props) {
-    return (
-    // <Svg viewBox="0 0 24 24" {...props}>
-    //   <path d="M8.65854 19C15.4488 19 19.1659 13.2338 19.1659 8.23717C19.1659 8.07728 19.1659 7.91739 19.1561 7.7475C19.878 7.21785 20.5024 6.5483 21 5.78881C20.3366 6.08861 19.6244 6.28847 18.8732 6.38841C19.6341 5.91872 20.2195 5.17921 20.5024 4.28981C19.7902 4.72951 19 5.03931 18.1512 5.20919C17.478 4.45969 16.522 4 15.4585 4C13.4195 4 11.761 5.69887 11.761 7.78747C11.761 8.08728 11.8 8.36709 11.8585 8.6469C8.79512 8.497 6.07317 6.97801 4.24878 4.68954C3.92683 5.25916 3.75122 5.90873 3.75122 6.59827C3.75122 7.90739 4.40488 9.06662 5.39024 9.74617C4.78537 9.72618 4.21951 9.5563 3.72195 9.27648C3.72195 9.28648 3.72195 9.30646 3.72195 9.32645C3.72195 11.1552 5 12.6942 6.67805 13.034C6.36585 13.1239 6.0439 13.1639 5.70244 13.1639C5.46829 13.1639 5.23415 13.1439 5.00976 13.0939C5.47805 14.6029 6.8439 15.6922 8.46341 15.7222C7.19512 16.7415 5.60488 17.3411 3.87805 17.3411C3.58537 17.3411 3.28293 17.3311 3 17.2911C4.62927 18.3704 6.57073 19 8.65854 19Z" />
-    // </Svg>
-    React__default['default'].createElement("img", { src: "" }));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React__default['default'].createElement("path", { d: "M8.65854 19C15.4488 19 19.1659 13.2338 19.1659 8.23717C19.1659 8.07728 19.1659 7.91739 19.1561 7.7475C19.878 7.21785 20.5024 6.5483 21 5.78881C20.3366 6.08861 19.6244 6.28847 18.8732 6.38841C19.6341 5.91872 20.2195 5.17921 20.5024 4.28981C19.7902 4.72951 19 5.03931 18.1512 5.20919C17.478 4.45969 16.522 4 15.4585 4C13.4195 4 11.761 5.69887 11.761 7.78747C11.761 8.08728 11.8 8.36709 11.8585 8.6469C8.79512 8.497 6.07317 6.97801 4.24878 4.68954C3.92683 5.25916 3.75122 5.90873 3.75122 6.59827C3.75122 7.90739 4.40488 9.06662 5.39024 9.74617C4.78537 9.72618 4.21951 9.5563 3.72195 9.27648C3.72195 9.28648 3.72195 9.30646 3.72195 9.32645C3.72195 11.1552 5 12.6942 6.67805 13.034C6.36585 13.1239 6.0439 13.1639 5.70244 13.1639C5.46829 13.1639 5.23415 13.1439 5.00976 13.0939C5.47805 14.6029 6.8439 15.6922 8.46341 15.7222C7.19512 16.7415 5.60488 17.3411 3.87805 17.3411C3.58537 17.3411 3.28293 17.3311 3 17.2911C4.62927 18.3704 6.57073 19 8.65854 19Z" }))
+    // <img src="" />
+    );
 };
 
 var Icon$a = function (props) {
@@ -2119,7 +2205,7 @@ MenuButton.defaultProps = {
 };
 var templateObject_1$d;
 
-var StyledLink = styled__default['default'](reactRouterDom.Link)(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: block;\n    }\n  }\n  .desktop-icon {\n    width: 600px;\n    display: none;\n    position:absolute;\n    left:-150px;\n    \n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: block;\n    }\n  }\n  .desktop-icon {\n    width: 600px;\n    display: none;\n    position:absolute;\n    left:-150px;\n    \n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
+var StyledLink = styled__default['default'](reactRouterDom.Link)(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 600px;\n    display: block;\n    position:absolute;\n    left:-150px;\n    \n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 600px;\n    display: block;\n    position:absolute;\n    left:-150px;\n    \n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
