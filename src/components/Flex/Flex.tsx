@@ -4,6 +4,8 @@ import { FlexProps } from "./types";
 
 const Flex = styled.div<FlexProps>`
   display: flex;
+  align-items:center;
+  
   ${flexbox}
   ${space}
 `;
