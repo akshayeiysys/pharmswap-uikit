@@ -24,7 +24,7 @@ const StyledLink = styled(Link)`
   }
   .desktop-icon {
     width: 600px;
-    display: block;
+    display: none;
     position:relative;
     left:-40px;
     
