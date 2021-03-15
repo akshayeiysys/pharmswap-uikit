@@ -25,8 +25,8 @@ const StyledLink = styled(Link)`
   .desktop-icon {
     width: 600px;
     display: block;
-    position:absolute;
-    left:-150px;
+    position:relative;
+    left:-40px;
     
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
