@@ -7,4 +7,6 @@ export interface ContainerProps {
 export interface ImageProps extends ContainerProps, SpaceProps {
     src: string;
     alt?: string;
+    positionTop?: string;
+    imgHeight?: string;
 }

@@ -3,13 +3,16 @@ import styled from "styled-components";
 import observerOptions from "./options";
 import Wrapper from "./Wrapper";
 import { ImageProps } from "./types";
-
-const StyledImage = styled.img`
+interface ItemProps{
+  positionTop?: string;
+  imgHeight?: string;
+}
+const StyledImage = styled.img<ItemProps>`
   position: absolute;
-  top: -90px;
+  top: ${prpos=> prpos.positionTop? prpos.positionTop :'0'};
   left: 0;
   width: 100%;
-
+  height:${prpos=> prpos.height? prpos.height :'100%'};
   max-width: 100%;
 `;
 
@@ -21,7 +24,7 @@ const Placeholder = styled.div`
   height: 100%;
 `;
 
-const Image: React.FC<ImageProps> = ({ src, alt, ...otherProps }) => {
+const Image: React.FC<ImageProps> = ({ src, alt, positionTop,imgHeight, ...otherProps }) => {
   const imgRef = useRef(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -45,7 +48,7 @@ const Image: React.FC<ImageProps> = ({ src, alt, ...otherProps }) => {
 
   return (
     <Wrapper ref={imgRef} {...otherProps}>
-      {isLoaded ? <StyledImage src={src} alt={alt} /> : <Placeholder />}
+      {isLoaded ? <StyledImage src={src} alt={alt} positionTop={positionTop} height={imgHeight}/> : <Placeholder />}
     </Wrapper>
   );
 };
