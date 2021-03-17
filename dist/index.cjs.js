@@ -898,8 +898,8 @@ var BackgroundImage = function (_a) {
     return React__default['default'].createElement(Wrapper$1, __assign({ ref: imgRef }, otherProps));
 };
 
-var StyledImage = styled__default['default'].img(templateObject_1$s || (templateObject_1$s = __makeTemplateObject(["\n  position: absolute;\n  top: ", ";\n  left: 0;\n  width: 100%;\n  height:", ";\n  max-width: 100%;\n"], ["\n  position: absolute;\n  top: ", ";\n  left: 0;\n  width: 100%;\n  height:", ";\n  max-width: 100%;\n"])), function (prpos) { return prpos.positionTop ? prpos.positionTop : '0'; }, function (prpos) { return prpos.height ? prpos.height : '100%'; });
-var Placeholder = styled__default['default'].div(templateObject_2$b || (templateObject_2$b = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  \n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  \n"])));
+var StyledImage = styled__default['default'].img(templateObject_1$s || (templateObject_1$s = __makeTemplateObject(["\n  position: absolute;\n  top: ", ";\n  left: 0;\n  width: 100%;\n  \n  max-width: 100%;\n"], ["\n  position: absolute;\n  top: ", ";\n  left: 0;\n  width: 100%;\n  \n  max-width: 100%;\n"])), function (prpos) { return prpos.positionTop ? prpos.positionTop : '0'; });
+var Placeholder = styled__default['default'].div(templateObject_2$b || (templateObject_2$b = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"])));
 var Image = function (_a) {
     var src = _a.src, alt = _a.alt, positionTop = _a.positionTop, imgHeight = _a.imgHeight, otherProps = __rest(_a, ["src", "alt", "positionTop", "imgHeight"]);
     var imgRef = React.useRef(null);

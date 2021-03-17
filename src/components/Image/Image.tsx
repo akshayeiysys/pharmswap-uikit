@@ -12,7 +12,7 @@ const StyledImage = styled.img<ItemProps>`
   top: ${prpos=> prpos.positionTop? prpos.positionTop :'0'};
   left: 0;
   width: 100%;
-  height:${prpos=> prpos.height? prpos.height :'100%'};
+  
   max-width: 100%;
 `;
 
@@ -21,7 +21,7 @@ const Placeholder = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  
+  height: 100%;
 `;
 
 const Image: React.FC<ImageProps> = ({ src, alt, positionTop,imgHeight, ...otherProps }) => {
