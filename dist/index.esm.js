@@ -886,7 +886,7 @@ var BackgroundImage = function (_a) {
 };
 
 var StyledImage = styled.img(templateObject_1$s || (templateObject_1$s = __makeTemplateObject(["\n  position: absolute;\n  top: ", ";\n  left: 0;\n  width: 100%;\n  height:", ";\n  max-width: 100%;\n"], ["\n  position: absolute;\n  top: ", ";\n  left: 0;\n  width: 100%;\n  height:", ";\n  max-width: 100%;\n"])), function (prpos) { return prpos.positionTop ? prpos.positionTop : '0'; }, function (prpos) { return prpos.height ? prpos.height : '100%'; });
-var Placeholder = styled.div(templateObject_2$b || (templateObject_2$b = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"])));
+var Placeholder = styled.div(templateObject_2$b || (templateObject_2$b = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  \n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  \n"])));
 var Image = function (_a) {
     var src = _a.src, alt = _a.alt, positionTop = _a.positionTop, imgHeight = _a.imgHeight, otherProps = __rest(_a, ["src", "alt", "positionTop", "imgHeight"]);
     var imgRef = useRef(null);
