@@ -2417,7 +2417,7 @@ var MenuEntry = styled.div(templateObject_3$2 || (templateObject_3$2 = __makeTem
     return theme.colors.gradients.bubblegum;
 });
 MenuEntry.defaultProps = {
-    secondary: false,
+    secondary: true,
     isActive: false,
     role: "button",
 };

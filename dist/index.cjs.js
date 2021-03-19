@@ -2430,7 +2430,7 @@ var MenuEntry = styled__default['default'].div(templateObject_3$2 || (templateOb
     return theme.colors.gradients.bubblegum;
 });
 MenuEntry.defaultProps = {
-    secondary: false,
+    secondary: true,
     isActive: false,
     role: "button",
 };

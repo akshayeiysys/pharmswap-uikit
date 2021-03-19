@@ -62,7 +62,7 @@ const MenuEntry = styled.div<Props>`
   }
 `;
 MenuEntry.defaultProps = {
-  secondary: false,
+  secondary: true,
   isActive: false,
   role: "button",
 };
