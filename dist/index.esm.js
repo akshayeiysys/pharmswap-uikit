@@ -2417,7 +2417,7 @@ var MenuEntry = styled.div(templateObject_3$2 || (templateObject_3$2 = __makeTem
     return theme.colors.gradients.bubblegum;
 });
 MenuEntry.defaultProps = {
-    secondary: true,
+    secondary: false,
     isActive: false,
     role: "button",
 };
@@ -3022,7 +3022,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#75dfee", textColor: "#75dfee", textDisabled: "#BDC2C4", textSubtle: "#75dfee", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", textColor: "#FFF", text: "#75dfee", textDisabled: "#666171", textSubtle: "#75dfee", borderColor: "#524B63", card: "#4e4c4f", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", textColor: "#FFF", text: "#75dfee", textDisabled: "#666171", textSubtle: "#75dfee", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
