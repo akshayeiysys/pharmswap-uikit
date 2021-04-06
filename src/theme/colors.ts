@@ -114,3 +114,4 @@ export const darkColors: Colors = {
   },
   bgMenu: '#4e4c4f'
 };
+

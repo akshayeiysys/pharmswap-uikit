@@ -2533,7 +2533,7 @@ var socials = [
             // },
             {
                 label: "Announcements",
-                href: "https://t.me/pharmswap",
+                href: "https://t.me/pharmswap_official",
             },
             // {
             //   label: "Whale Alert",
